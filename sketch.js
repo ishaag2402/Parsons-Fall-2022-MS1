@@ -61,7 +61,7 @@ function draw() {
   bgscene = new THREE.Scene();
   const imagesize = 285;
   var bg = new THREE.PlaneGeometry(imagesize,6*imagesize);
-  bgload = new THREE.TextureLoader().load("assets/base.png");
+  bgload = new THREE.TextureLoader().load("assets/base2.png");
   var bgmaterial = new THREE.MeshBasicMaterial({ 
     map: bgload,
     // color: 0xffff00, 
